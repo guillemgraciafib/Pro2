@@ -10,7 +10,6 @@ void LlistaIOParInt::LlegirLlistaParInt(list<ParInt>& llista) {
         llista.push_back(temp);
         temp.llegir();
     }
-    llista.push_back(temp);
 }
 
 void LlistaIOParInt::EscriureLlistaParInt(const list<ParInt>& llista) {
