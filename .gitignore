@@ -1,2 +1,8 @@
 .vscode
 .DS_Store
+.vs
+
+*.sln
+*.vcxproj
+*.filters
+*.user
