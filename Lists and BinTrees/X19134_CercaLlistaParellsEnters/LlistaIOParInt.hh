@@ -1,4 +1,3 @@
-
 #include <list>
 #include "ParInt.hh"
 
@@ -13,4 +12,4 @@ public:
     // Post: s’han escrit al canal estandar de sortida els elements de l
     void EscriureLlistaParInt(const list<ParInt>&);
     
-}
+};

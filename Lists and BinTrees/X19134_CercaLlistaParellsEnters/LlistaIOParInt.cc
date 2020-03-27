@@ -10,13 +10,13 @@ void LlistaIOParInt::LlegirLlistaParInt(list<ParInt>& llista) {
         llista.push_back(temp);
         temp.llegir();
     }
+    llista.push_back(temp);
 }
 
 void LlistaIOParInt::EscriureLlistaParInt(const list<ParInt>& llista) {
     int size = llista.size();
-    list<ParInt>::const_iterator it;
 
-    for(it = llista.begin(); it != llista.end(); ++it) {
+    for(list<ParInt>::const_iterator it = llista.begin(); it != llista.end(); ++it) {
         it->escriure(); //tambien puede ser (*it).escriure(), pero mejor como yo lo he puesto
     }
 }
